@@ -14,6 +14,7 @@ const config: ZudokuConfig = {
         type: "category",
         label: "Overview",
         items: ["introduction"],
+        collapsed: false,
       },
       {
         type: "category",
@@ -23,6 +24,7 @@ const config: ZudokuConfig = {
           "plugins/magento/magento-step2",
           "plugins/magento/magento-step3",
         ],
+        collapsed: false,
       },
       {
         type: "category",
@@ -32,6 +34,7 @@ const config: ZudokuConfig = {
           "plugins/woocommerce/woocommerce-step2",
           "plugins/woocommerce/woocommerce-step3",
         ],
+        collapsed: false,
       },
     ],
   },
