@@ -26,7 +26,7 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the portal.
+Open [http://localhost:9001](http://localhost:9001) in your browser to see the portal.
 
 You can start editing the portal by modifying `pages/index.mdx`. The content will automatically update as you save the file.
 
