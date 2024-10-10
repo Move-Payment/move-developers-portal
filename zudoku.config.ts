@@ -1,6 +1,9 @@
 import type { ZudokuConfig } from "zudoku";
 
 const config: ZudokuConfig = {
+  page: {
+    logoUrl: "/icon.svg",
+  },
   topNavigation: [
     { id: "docs", label: "Documentation" },
     { id: "api", label: "API Reference" },
@@ -10,14 +13,32 @@ const config: ZudokuConfig = {
       {
         type: "category",
         label: "Overview",
-        items: ["introduction", "example"],
+        items: ["introduction"],
+      },
+      {
+        type: "category",
+        label: "Magento Plugin",
+        items: [
+          "plugins/magento/magento-step1",
+          "plugins/magento/magento-step2",
+          "plugins/magento/magento-step3",
+        ],
+      },
+      {
+        type: "category",
+        label: "WooCommerce Plugin",
+        items: [
+          "plugins/woocommerce/woocommerce-step1",
+          "plugins/woocommerce/woocommerce-step2",
+          "plugins/woocommerce/woocommerce-step3",
+        ],
       },
     ],
   },
   redirects: [{ from: "/", to: "/docs/introduction" }],
   apis: {
-    type: "file",
-    input: "./apis/openapi.yaml",
+    type: "url",
+    input: "https://api.aws.movepayment.eu/ecommerce-json",
     navigationId: "api",
   },
   docs: {
