@@ -46,7 +46,7 @@ const config: ZudokuConfig = {
   redirects: [{ from: "/", to: "/docs/introduction" }],
   apis: {
     type: "url",
-    input: "http://localhost:3000/ecommerce-json",
+    input: "https://api.aws.movepayment.eu/ecommerce-json",
     navigationId: "api",
   },
   docs: {
