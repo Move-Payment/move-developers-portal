@@ -1,10 +1,22 @@
-## Zudoku App
+## Move Payment Developers Portal
 
-This is a Zuplo app that was created with [`create-zudoku-app`](https://zudoku.dev/docs).
+Welcome to the Move Payment Developers Portal. This portal provides resources and tools to help you integrate with the Move Payment API.
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/your-repo/move-payment-developers.git
+cd move-payment-developers
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -14,12 +26,13 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the portal.
 
-You can start editing the page by modifying `pages/docs/intro.mdx`. You will see the content automatically update as you save the file.
+You can start editing the portal by modifying `pages/index.mdx`. The content will automatically update as you save the file.
 
 ## Learn More
 
-To learn more about Zudoku, you can visit the [Zudoku documentation](https://zudoku.dev/docs).
+To learn more about the Move Payment API, visit the [Move Payment documentation](https://move-payment.dev/docs).
 
-To connect with the community join the [Github Discussions](https://github.com/zuplo/zudoku/discussions) or [Discord](https://discord.zudoku.dev).
+Join the community on [GitHub Discussions](https://github.com/move-payment/move-payment-developers/discussions) or [Discord](https://discord.move-payment.dev) to connect with other developers.
+
