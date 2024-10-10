@@ -1,6 +1,11 @@
 import type { ZudokuConfig } from "zudoku";
 
 const config: ZudokuConfig = {
+  metadata: {
+    title: "Move Payment Ecommerce API Documentation",
+    description: "Move Payment Documentation for the Ecommerce API",
+    favicon: "/favicon.ico",
+  },
   page: {
     logoUrl: "/icon.svg",
   },
@@ -41,7 +46,7 @@ const config: ZudokuConfig = {
   redirects: [{ from: "/", to: "/docs/introduction" }],
   apis: {
     type: "url",
-    input: "https://api.aws.movepayment.eu/ecommerce-json",
+    input: "http://localhost:3000/ecommerce-json",
     navigationId: "api",
   },
   docs: {
