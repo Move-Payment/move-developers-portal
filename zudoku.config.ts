@@ -23,6 +23,14 @@ const config: ZudokuConfig = {
       },
       {
         type: "category",
+        label: "Receive payments",
+        items: [
+          "payment-gateway/payment-button",
+        ],
+        collapsed: false,
+      },
+      {
+        type: "category",
         label: "Magento Plugin",
         items: [
           "plugins/magento/magento-step1",
