@@ -31,6 +31,14 @@ const config: ZudokuConfig = {
       },
       {
         type: "category",
+        label: "Integration",
+        items: [
+          "webhooks/webhooks",
+        ],
+        collapsed: false,
+      },
+      {
+        type: "category",
         label: "Magento Plugin",
         items: [
           "plugins/magento/magento-step1",
