@@ -34,6 +34,7 @@ const config: ZudokuConfig = {
         label: "Integration",
         items: [
           "webhooks/webhooks",
+          "webhooks/signature",
         ],
         collapsed: false,
       },
