@@ -31,6 +31,7 @@ interface WebhookPayload {
   status: PaymentStatus;
   statusMessage: string; // Payment status message coming from bank
   date: Date;
+  paymentId: string; // MovePay payment ID (token)
 }
 ```
 
