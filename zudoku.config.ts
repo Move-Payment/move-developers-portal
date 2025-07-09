@@ -33,6 +33,8 @@ const config: ZudokuConfig = {
         type: "category",
         label: "Integration",
         items: [
+          "integration/sandbox",
+          "integration/api-keys",
           "webhooks/webhooks",
           "webhooks/signature",
         ],

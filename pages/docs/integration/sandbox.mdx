@@ -1,0 +1,35 @@
+---
+title: "Using the Sandbox Environment"
+---
+
+The MovePay sandbox environment allows you to safely test your integration before going live. This guide explains how to access the sandbox dashboard and configure your API requests.
+
+## Merchant Dashboard
+
+To access the merchant dashboard in the sandbox environment, use the following URL:
+
+[https://merchant.sandbox.movepay.de/](https://merchant.sandbox.movepay.de/)
+
+Create a sandbox account. The sandbox dashboard provides access to all features available in the production environment, allowing you to simulate transactions and test your integration.
+
+## API Base URL
+
+When making API requests in the sandbox environment, set your base URL to:
+
+`https://api.sandbox.movepay.de/`
+
+All API endpoints are available under this base URL. Make sure your API client is configured to use this URL during development and testing.
+
+## Fake bank payments
+
+You can simulate payments using the sandbox's built-in fake bank.
+For example, if you want to test OAuth-based payments, you can use the following bank: Fake OAuth Bank with Client Keys
+
+![Fake bank interaction](/sandbox/fake-bank.gif)
+
+ No real funds are transferred.
+
+## Notes
+
+- The sandbox environment is isolated from production. No real transactions or funds are processed.
+- When you are ready to go live, switch your dashboard and API URLs to the production endpoints.
