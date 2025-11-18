@@ -60,6 +60,17 @@ const config: ZudokuConfig = {
         ],
         collapsed: false,
       },
+      {
+        type: "category",
+        label: "Shopware Plugin",
+        items: [
+          "plugins/shopware/shopware-step1",
+          "plugins/shopware/shopware-step2",
+          "plugins/shopware/shopware-step3",
+          "plugins/shopware/shopware-step4",
+        ],
+        collapsed: false,
+      }
     ],
   },
   redirects: [{ from: "/", to: "/docs/introduction" }],

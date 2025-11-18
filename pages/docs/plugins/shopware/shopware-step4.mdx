@@ -1,0 +1,34 @@
+---
+title: "Step 4: Set Up Webhook"
+---
+
+Webhooks keep Shopware and MovePay synchronized by notifying the plugin about order and payment updates.
+
+## Copy the Webhook URL
+
+1. In the MovePay plugin settings within Shopware, find the **Webhook URL** that is automatically generated.
+![Shopware Plugin Webhook URL](/plugins/shopware/shopware-p4.png)
+2. Copy the entire URL so it can be registered inside the MovePay Merchant App.
+
+## Register the Webhook in MovePay Merchant App
+
+1. Log into the **MovePay Merchant App**.
+2. Go to **API Settings → Webhook**.
+![MovePay Merchant App Webhook Settings](/plugins/shopware/shopware-p4-2.png)
+3. Click **Add Webhook**, paste the copied URL, and save the webhook.
+![MovePay Add Webhook](/plugins/shopware/shopware-p4-3.png)
+4. Copy the value shown under **Secret Key** for the webhook.
+![MovePay Webhook Secret Key](/plugins/shopware/shopware-p4-5.png)
+5. Back in Shopware, paste that key into the plugin’s **Webhook Secret Key** field.
+![Shopware Plugin Webhook Secret Key](/plugins/shopware/shopware-p4-6.png)
+6. Click **Save** in the plugin settings to confirm the webhook configuration.
+7.	Go to Storefront, scroll down to Payment and Shipping - Payment method.
+8.	Add MovePayment as Payment method and click Save.
+![Shopware Payment Method](/plugins/shopware/shopware-p4-7.png)
+
+## Final Steps
+
+1. Open your Shopware storefront settings and navigate to **Payment and Shipping → Payment method**.
+2. Add **MovePayment** as an available payment method and click **Save**.
+
+After these steps, the MovePay Payment Gateway plugin is fully configured in Shopware and ready for live checkout transactions.

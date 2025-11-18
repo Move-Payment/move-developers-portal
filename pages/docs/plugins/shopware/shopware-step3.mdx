@@ -1,0 +1,31 @@
+---
+title: "Step 3: Set Up Payment Gateway Credentials"
+---
+
+Configure the MovePay payment gateway with credentials from the MovePay Merchant App.
+
+## Retrieve API Key from MovePay Merchant App
+
+1. Log into your **MovePay Merchant App**.
+2. Navigate to **Other → API settings → API Keys**.
+![MovePay API Settings](/plugins/shopware/shopware-p3.png)
+3. In the **API Settings** section, click **Add API key** to create a new key.
+4. Copy the generated API key. The date field can stay blank; the key never expires unless revoked.
+![MovePay API Key](/plugins/shopware/shopware-p3-2.png)
+
+## Configure Plugin with API Token
+
+1. Return to the MovePay plugin settings in Shopware.
+![Shopware Plugin API Secret Key](/plugins/shopware/shopware-p3-4.png)
+2. Paste the copied token into the **API Secret Key** field.
+
+## Select Business
+
+1. In the MovePay Merchant App, open the **Business** section.
+![MovePay Business Section](/plugins/shopware/shopware-p3-5.png)
+2. Choose the business you want to connect and copy its **Move ID**.
+![MovePay Business ID](/plugins/shopware/shopware-p3-6.png)
+3. Paste the Move ID into the plugin’s **Business ID** field.
+4. Toggle **Debug mode** to *On* if you want detailed logs while testing the integration.
+
+Save the configuration in Shopware so the credentials are stored securely.
