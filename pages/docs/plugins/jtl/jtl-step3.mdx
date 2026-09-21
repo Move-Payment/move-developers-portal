@@ -1,0 +1,27 @@
+---
+title: "Step 3: Set Up Payment Gateway Credentials"
+---
+
+Connect JTL to your business using credentials from the MovePayment Merchant App.
+
+## Select Your Business
+
+1. Log in to the **MovePayment Merchant App**.
+2. Open the **Business** section and select the business you want to connect.
+3. Copy the business's **Move ID**.
+4. Return to the MovePayment plugin settings in JTL and paste it into the **Move ID** field.
+
+## Create and Enter an API Key
+
+1. In the MovePayment Merchant App, navigate to **Other → API settings**.
+2. In the **API Keys** section, click **Add API key**.
+3. Create a key and copy it. You can leave the expiration date blank; in that case, the key remains valid until it is revoked.
+4. Return to the plugin settings in JTL and paste the key into **API Secret Key**.
+
+For more details, see [Getting API keys](/docs/integration/api-keys).
+
+## Configure Test Mode
+
+To test the integration with the [MovePayment Sandbox](/docs/integration/sandbox), turn **Test mode** on. The setting is labeled **Test mode (logged-in admin only)** in JTL.
+
+Click **Save** to store your settings, then continue to [configure the webhook and enable the payment method](/docs/plugins/jtl/jtl-step4).

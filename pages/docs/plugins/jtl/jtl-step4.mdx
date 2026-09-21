@@ -1,0 +1,32 @@
+---
+title: "Step 4: Set Up Webhook and Enable Payments"
+---
+
+Webhooks notify the JTL plugin about payment updates. Register the plugin's webhook URL in MovePayment, then enable MovePayment for your shipping methods.
+
+## Copy the Webhook URL
+
+1. Open the MovePayment plugin settings in JTL.
+2. Locate the **Webhook URL** card and copy the full URL provided by the plugin.
+
+## Register the Webhook in MovePayment
+
+1. Log in to the **MovePayment Merchant App**.
+2. Navigate to **API settings → Webhook**.
+3. Click **Add Webhook** and paste the URL copied from JTL.
+4. Verify that the correct business is selected, then click **Save**.
+5. Copy the value shown under **Secret Key** for the webhook.
+6. Return to the MovePayment plugin settings in JTL and paste it into **Webhook Secret Key**.
+7. Set **Payment method display** to **MovePayment** and click **Save**.
+
+## Enable MovePayment for Shipping Methods
+
+1. In the JTL Admin Dashboard, navigate to **Administration → Shipments → Shipping methods**.
+2. Click the **Edit** icon for the shipping method you want to configure.
+3. Scroll to **Accepted payment methods**.
+4. Select the checkbox for **Move Payment (MovePay)** and click **Save**.
+5. Repeat for each shipping method that should offer MovePayment at checkout.
+
+![JTL shipping method settings with Move Payment (MovePay) selected under Accepted payment methods](/plugins/jtl/shipping-payment-methods.png)
+
+The MovePayment plugin is now configured for the selected shipping methods. If you enabled test mode, use the [sandbox guide](/docs/integration/sandbox) to test the checkout flow.

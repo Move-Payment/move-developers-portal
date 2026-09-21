@@ -70,6 +70,17 @@ const config: ZudokuConfig = {
           "plugins/shopware/shopware-step4",
         ],
         collapsed: false,
+      },
+      {
+        type: "category",
+        label: "JTL Plugin",
+        items: [
+          "plugins/jtl/jtl-step1",
+          "plugins/jtl/jtl-step2",
+          "plugins/jtl/jtl-step3",
+          "plugins/jtl/jtl-step4",
+        ],
+        collapsed: false,
       }
     ],
   },
